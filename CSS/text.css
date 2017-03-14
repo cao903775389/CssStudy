@@ -1,0 +1,35 @@
+.h1Text {
+	color: red;
+	text-align: center;
+	direction: ltr;/*right-to-left left-to-right inherit*/
+	letter-spacing: 2px;/*字符间距 可以设置负值*/
+	line-height: 100%;/*基于当前字体尺寸的百分比行间距*/
+	text-decoration: line-through;/*underline 下划线 overline 上划线 line-through 删除线 blink 闪烁*/
+	text-indent: 10%;/*缩进 基于父元素宽度的百分比缩进*/
+	text-shadow: 4px 4px 20px #ff0000;/*h-shadow v-shadow blur(模糊的距离) color;*/
+	text-transform: uppercase;/*文本大小写控制 capitalize首字母大写 uppercase全部大写 lowercase全部小写*/ 
+	unicode-bidi: embed;/*配合direction使用 设置文本是否被重写*/
+	vertical-align: baseline;
+	white-space: nowrap;/*文本空白处理*/
+	word-spacing: 20px;/*字间距*/
+	font: italic small-caps bolder 20px 40px "Times New Roman",Georgia,Serif;/*font-style font-variant font-weight font-size/line-height font-family*/
+}
+
+.pText {
+	color: #00ff00;
+	text-align: justify;
+	direction: rtl;
+	letter-spacing: 4px;
+	line-height: 40px;
+	text-decoration: underline;
+	text-indent: 50px;
+	text-shadow: 4px 4px 10px #ff0000;
+	text-transform: capitalize;
+	unicode-bidi: bidi-override;
+	vertical-align: middle;
+	white-space: pre-wrap;/*保留空白符序列 正常换行*/
+	word-spacing: 40px;
+	/*font: italic small-caps bolder 20px 40px ;*/
+	font-family: "Times New Roman",Georgia,Serif;
+	font-weight: bolder;
+}

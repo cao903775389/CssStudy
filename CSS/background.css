@@ -1,0 +1,10 @@
+.background {
+	/*width: 480px;
+	height: 480px;
+	background-color: gray;
+	background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490065533&di=c062f742bd2384b02a856a3080583c98&imgtype=jpg&er=1&src=http%3A%2F%2Fmvimg1.meitudata.com%2F5689edd0af01c649.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;*/
+	background: gray url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490065533&di=c062f742bd2384b02a856a3080583c98&imgtype=jpg&er=1&src=http%3A%2F%2Fmvimg1.meitudata.com%2F5689edd0af01c649.jpg) no-repeat fixed right top;
+}
