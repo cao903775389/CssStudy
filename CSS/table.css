@@ -1,0 +1,11 @@
+table, th, td {
+	border: 1px solid black;/*表格边框*/
+	text-align: center;
+	width: 30%;
+	height: 50px;
+}
+
+.collapse {
+	margin-top: 40px;
+	border-collapse: collapse;/*设置表格边框是否被折叠成一个单一的边框或隔开*/
+}

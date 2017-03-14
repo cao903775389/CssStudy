@@ -1,0 +1,8 @@
+/*默认情况下 width = contentWidth + border + padding + margin*/
+.boxModel {
+	background-color: lightgrey;
+	width: 300px;
+	border: 25px solid green;
+	padding: 25px;
+	margin: 25px;
+}
